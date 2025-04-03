@@ -15,7 +15,6 @@ public class TricentisTest {
         driver.get("https://demowebshop.tricentis.com/");
     }
 
-
     @Test
     public void openGoogleTest() {
         System.out.println("Hello!");
