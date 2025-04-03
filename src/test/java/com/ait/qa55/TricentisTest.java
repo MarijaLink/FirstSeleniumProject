@@ -20,7 +20,7 @@ public class TricentisTest {
         System.out.println("Hello!");
     }
 
-    @AfterMethod
+    @AfterMethod(enabled = false)
     public void tearDown() {
         driver.quit();
     }
